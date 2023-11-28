@@ -1,0 +1,82 @@
+.my-component {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  border-radius: 50%;
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.moptro-logo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.input-box {
+  width: 298px;
+  height: 55px;
+  color: #b6b2a2;
+  background: #5E5E5E82 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #595959;
+  opacity: 0.4;
+}
+
+.user-data {
+  width: 376px;
+}
+
+.user-item {
+  margin: 0 0 19px -7px;
+  width: 312px;
+  display: block;
+  border: solid 2px #2c2626;
+  background-color: rgb(32 29 29 / 37%);  flex-direction: column;
+  border-radius: 25px;
+}
+
+.info-item {
+  color: #b6b2a2;
+  font-size: 18px;
+  padding: 11px 0 0px 10px;
+  margin: 0px 5px 13px 22px;
+}
+
+ul{
+  margin: 0 0 97px 0;
+}
+
+
+@media (max-width: 480px) {
+  .my-component {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .count {
+    font-size: 20px;
+  }
+
+  .input-box {
+    width: 336px;
+    text-align: center;
+    margin-top: 2px;
+    color: #ddd;
+  }
+}

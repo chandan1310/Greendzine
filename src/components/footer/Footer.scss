@@ -1,0 +1,61 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 19px 19px 0 0;
+  border: solid 2px black;
+}
+
+.footer-content {
+  overflow: auto;
+}
+
+.home,
+.user {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+
+
+}
+
+.home-logo,
+.user-logo {
+  margin-left: 73px;
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+}
+
+.home-logo {
+  background-image: url('../images/home.png')
+}
+
+.user-logo {
+  background-image: url('../images/user.png');
+}
+
+.home:hover,
+.user:hover {
+  background-color: #555;
+  border-radius: 25px;
+
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home,
+  .user {
+    width: 50%;
+    height: 60px;
+    padding: 5px 0px 0 0;
+
+
+  }
+}
